@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="components/CardNews.js" defer></script>
+    <script src="components/TituloDinamico.js" defer></script>
+
     <title>Portal  de notícias Galactica</title>
 </head>
 <body>
@@ -16,10 +19,19 @@
                 <p>Darth Vader procura desenvolvedores que sabem trabalhar com componentes.</p>
             </div>
             <div class="card_right">
-                <img src="assets/asset-vader.png" alt="vader">
+                <img src="assets/asset-vader.png" alt="vader" srcset="">
             </div>
         </div>
 
     </div>
-</body>
+
+    <card-news 
+    autor="Bianca"
+    title="Darth Vader Contrata"
+    content="Darth Vader procura desenvolvedores que sabem trabalhar com componentes."
+
+    
+    >
+    </card-news>
+  
 </html>
